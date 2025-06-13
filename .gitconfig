@@ -1,0 +1,16 @@
+[user]
+	email = harshitt345@gmail.com
+	name = Harshit Tomar
+	signingkey = /home/harshit/.ssh/id_ed25519.pub
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
+[push]
+	autoSetupRemote = true
+[url "https://invent.kde.org/"]
+	insteadOf = kde:
+[url "ssh://git@invent.kde.org/"]
+	pushInsteadOf = kde:
+[init]
+	defaultBranch = main
