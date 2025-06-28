@@ -5,7 +5,6 @@
 [ExtractDialog]
 1920x1200 screen: Height=600
 1920x1200 screen: Width=1280
-DirHistory[$e]=$HOME/Videos/Darling in the FranXX/,$HOME/Harshit_Work/Funny_Stuff/z_wallpaper/,$HOME/Videos/office/The Office Season 9 BluRay 720p x264 [Pahe.in]/
 
 [FileDialogSize]
 2 screens: Height=570
@@ -24,7 +23,7 @@ ViewPropsTimestamp=2024,7,17,15,47,21.567
 
 [IconsMode]
 IconSize=208
-PreviewSize=128
+PreviewSize=160
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
