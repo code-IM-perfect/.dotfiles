@@ -1,7 +1,9 @@
 # BEGIN_KITTY_THEME
-# Tokyo Night Moon
+# Adwaita darker
 include current-theme.conf
 # END_KITTY_THEME
+
+map kitty_mod+t new_tab_with_cwd
 
 # BEGIN_KITTY_FONTS
 font_family      family="JetBrainsMonoNL Nerd Font"
