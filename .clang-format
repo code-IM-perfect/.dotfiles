@@ -15,7 +15,7 @@
 #   Chromium A style complying with Chromium’s style guide
 #   Mozilla A style complying with Mozilla’s style guide
 #   WebKit A style complying with WebKit’s style guide
-#BasedOnStyle:
+BasedOnStyle: Chromium
 
 # TabWidth (unsigned)
 # The number of columns used for tab stops.
