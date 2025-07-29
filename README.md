@@ -10,6 +10,5 @@ Not all of my configs are here cuz some of them are too messy and I'd rather set
 - Add my awesomewm config here (with history if possible)
 - Find way to backup my nicotine+ config safely
 - Clean up rofi config
-- Configure mpv to perfection
 - Move to a new fetch lol
 - Backup .ssh (????)
