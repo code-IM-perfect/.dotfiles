@@ -1,0 +1,30 @@
+{
+  "keyMappings": "# Insert your preferred key mappings here.\nunmap d\nunmap u\nunmap r\nunmap gs\n\nunmap o\nunmap O\n\nunmap b\nunmap B\n\n# unmap /\n\nunmap J\nunmap gT\nunmap K\nunmap gt\n\nunmap t\nunmap x\nunmap X",
+  "settingsVersion": "2.3",
+  "exclusionRules": [
+    {
+      "passKeys": "/",
+      "pattern": "https?://www.google.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://monkeytype.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://docs.google.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://colab.research.google.com/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://hackmd.io/*"
+    },
+    {
+      "passKeys": "",
+      "pattern": "https?://www.youtube.com/watch*"
+    }
+  ]
+}
