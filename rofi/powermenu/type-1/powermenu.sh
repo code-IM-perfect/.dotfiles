@@ -83,6 +83,8 @@ run_cmd() {
 				qdbus org.kde.ksmserver /KSMServer logout 0 0 0
 			elif [[ "$DESKTOP_SESSION" == 'awesome' ]]; then
 				awesome-client "awesome.quit()"
+			elif [[ "$DESKTOP_SESSION" == 'hyprland' ]]; then
+				hyprctl dispatch exit
 			fi
 		fi
 	else
