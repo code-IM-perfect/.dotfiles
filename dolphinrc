@@ -1,29 +1,16 @@
-[Baloo KEditCommentDialog]
-1920x1200 screen: Height=232
-1920x1200 screen: Width=264
-
-[ExtractDialog]
-1920x1200 screen: Height=600
-1920x1200 screen: Width=1280
-
-[FileDialogSize]
-2 screens: Height=570
-2 screens: Width=960
-
 [General]
 GlobalViewProps=false
+ShowFullPath=true
 HomeUrl=/home/harshit/Harshit_Work
 RememberOpenedTabs=false
-ShowFullPath=true
 ShowStatusBar=FullWidth
 ShowToolTips=true
 ShowZoomSlider=true
 Version=202
-ViewPropsTimestamp=2024,7,17,15,47,21.567
 
 [IconsMode]
 IconSize=208
-PreviewSize=160
+PreviewSize=192
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -31,7 +18,3 @@ Places Icons Static Size=22
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs
-
-[ViewPropertiesDialog]
-1920x1200 screen: Height=391
-1920x1200 screen: Width=432
