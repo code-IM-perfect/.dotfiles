@@ -1,8 +1,8 @@
 [General]
 GlobalViewProps=false
-ShowFullPath=true
 HomeUrl=/home/harshit/Harshit_Work
 RememberOpenedTabs=false
+ShowFullPath=true
 ShowStatusBar=FullWidth
 ShowToolTips=true
 ShowZoomSlider=true
