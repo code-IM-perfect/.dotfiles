@@ -28,3 +28,5 @@ In `/etc/environment` set `EDITOR=nvim` (fuck nano)
 
 
 ## Set Critical Battery Action to Suspend (if HybridSleep is acting up)
+
+## Change emoji font to twemoji
