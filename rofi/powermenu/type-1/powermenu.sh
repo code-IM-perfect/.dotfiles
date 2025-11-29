@@ -71,13 +71,14 @@ run_cmd() {
 # 			amixer set Master mute
 			systemctl suspend
 		elif [[ $1 == "--lock" ]]; then
-				if [[ -x '/usr/bin/xsecurelock' ]]; then
-				xsecurelock
-			elif [[ -x '/usr/bin/betterlockscreen' ]]; then
-				betterlockscreen -l
-			elif [[ -x '/usr/bin/i3lock' ]]; then
-				i3lock
-			fi
+			# if [[ -x '/usr/bin/xsecurelock' ]]; then
+			# 	xsecurelock
+			# elif [[ -x '/usr/bin/betterlockscreen' ]]; then
+			# 	betterlockscreen -l
+			# elif [[ -x '/usr/bin/i3lock' ]]; then
+			# 	i3lock
+			# fi
+			loginctl lock-session
 		elif [[ $1 == "--screen" ]]; then
 			xset dpms force off; sleep 0.001; xset dpms force off
 		elif [[ $1 == '--logout' ]]; then
