@@ -1,0 +1,3 @@
+[templates.quickshell]
+input_path = './templates/quickshell/Colors.qml'
+output_path = '~/.dotfiles/quickshell/appearance/themes/Matugen.qml'
