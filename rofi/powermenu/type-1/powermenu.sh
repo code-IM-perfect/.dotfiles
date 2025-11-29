@@ -70,7 +70,7 @@ run_cmd() {
 # 			mpc -q pause
 # 			amixer set Master mute
 			systemctl suspend
-			elif [[ $1 == "--lock" ]]; then
+		elif [[ $1 == "--lock" ]]; then
 				if [[ -x '/usr/bin/xsecurelock' ]]; then
 				xsecurelock
 			elif [[ -x '/usr/bin/betterlockscreen' ]]; then
