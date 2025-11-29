@@ -55,7 +55,7 @@ rofi_cmd() {
 
 # Pass variables to rofi dmenu
 run_rofi() {
-	echo -e "$suspend\n$shutdown\n$screen\n$reboot\n$logout\n$lock" | rofi_cmd
+	echo -e "$suspend\n$shutdown\n$lock\n$reboot\n$screen\n$logout" | rofi_cmd
 }
 
 # Execute Command
