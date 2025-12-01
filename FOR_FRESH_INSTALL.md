@@ -24,6 +24,8 @@ In `/etc/environment` set `EDITOR=nvim` (fuck nano)
 
 ## Setup Chaotic AUR
 
+## Setup gnome-keyring
+
 ## Change from s2idle to Deep Sleep
 
 
