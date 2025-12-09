@@ -128,6 +128,9 @@ vim.keymap.set('n', '<leader>y', '"+y')
 vim.keymap.set('v', '<leader>y', '"+y')
 vim.keymap.set('n', '<leader>Y', '"+Y')
 
+-- TODO: <C-Backspace> to delete word (in insert mode)
+-- TODO: remap j,k to gj,gk only in .txt and .md (and idk tex?)
+
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
 
