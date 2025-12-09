@@ -16,6 +16,11 @@ vimcmd_replace_one_symbol = '[\[R\]](bold blue)'
 vimcmd_replace_symbol = '[\[R\]](bold purple)'
 vimcmd_visual_symbol = '[\[V\]](bold purple)'
 
+[cmd_duration]
+# format = 'took [$duration]($style)'
+format = '[$duration]($style)'
+style = 'dimmed bright-white'
+
 # Disable the package module, hiding it from the prompt completely
 [package]
 disabled = true
