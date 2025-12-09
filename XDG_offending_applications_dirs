@@ -1,0 +1,81 @@
+.android
+.bundle
+.BurpSuite
+.cargo
+.cups
+.designer
+.dotnet
+.flutter
+.ghidra
+.gnupg ??
+.gradle
+.hplip
+.idapro
+.ipython
+.java
+.jupyter
+.lyrics ??
+.lyx
+.mozilla
+
+
+.Xilinx/
+
+.BurpSuite/
+.ZAP/
+.android/
+.bundle/
+.cargo/
+.cert/  ???
+.cups/
+.designer/
+.dotnet/
+.ghidra/
+.gnupg/ ???
+.gradle/
+.hplip/
+.idapro/
+.ipython/
+.java/
+.jupyter/
+.mozilla/
+.npm/
+.pki/
+.pub-cache/
+.spicetify/
+.ssh/   ???
+.streamlit/
+.texlive/
+.thunderbird/
+.vim/
+.vscode-oss/
+.yarn/
+.zen/
+Android/
+AndroidStudioProjects/
+MEGA/   ???
+gems/
+go/
+kde/    ???
+initial_setup.sh* (the kde script ig)
+.XIC.lock
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.clang-format@	 --> .dotfiles/.clang-format
+.emulator_console_auth_token
+.fonts.conf@	 --> .dotfiles/.fonts.conf
+.gdb_history
+.gdbinit
+.gitconfig@	 --> .dotfiles/.gitconfig
+.gtkrc-2.0
+.httrack.ini  (no longer there idk why)
+.profile
+.python_history
+.screenrc
+.sqlite_history
+.viminfo
+.wget-hsts
+.yarnrc
+xvlog.pb  (vivado thing)
