@@ -6,6 +6,16 @@ format = '$all'
 right_format = '$cmd_duration'
 # Inserts a blank line between shell prompts
 add_newline = false
+
+# palette = 'foo' # Probably should define it but idk
+#
+# [palette.foo]
+# # Overwrite existing color
+# blue = '21'
+# # Define new color
+# mustard = '#af8700'
+
+
 #### MODULE CONFIGS START HERE ####
 [character] # The name of the module we are configuring is 'character'
 # success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
