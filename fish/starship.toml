@@ -3,6 +3,7 @@
 
 #### PROMPT CONFIG ####
 format = '$all'
+right_format = '$cmd_duration'
 # Inserts a blank line between shell prompts
 add_newline = false
 [character] # The name of the module we are configuring is 'character'
