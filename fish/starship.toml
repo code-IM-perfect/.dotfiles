@@ -6,8 +6,15 @@ format = '$all'
 right_format = '$cmd_duration'
 # Inserts a blank line between shell prompts
 add_newline = false
+#### MODULE CONFIGS START HERE ####
 [character] # The name of the module we are configuring is 'character'
 # success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+success_symbol = '[\[I\]](bold green)'
+error_symbol = '[\[I\]](bold red)'
+vimcmd_symbol = '[\[N\]](bold green)'
+vimcmd_replace_one_symbol = '[\[R\]](bold blue)'
+vimcmd_replace_symbol = '[\[R\]](bold purple)'
+vimcmd_visual_symbol = '[\[V\]](bold purple)'
 
 # Disable the package module, hiding it from the prompt completely
 [package]
