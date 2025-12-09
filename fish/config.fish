@@ -1,6 +1,7 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
     zoxide init fish | source
+    set -gx STARSHIP_CONFIG ~/.config/fish/starship.toml
     starship init fish | source
 
     bind -M "insert" ctrl-backspace "backward-kill-word"
