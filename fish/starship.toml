@@ -26,8 +26,9 @@ fish_style_pwd_dir_length = 1
 
 [git_branch]
 format = '[$symbol$branch(:$remote_branch)]($style) '
-symbol = ' '
+# symbol = ' '
 # symbol = '󰊢 '
+symbol = ''
 style = 'bold green'
 
 [git_commit]
