@@ -1,22 +1,12 @@
 # Get editor completions based on the config schema
 "$schema" = 'https://starship.rs/config-schema.json'
 
-#### PROMPT CONFIG ####
 format = '$all'
-right_format = '$cmd_duration'
+right_format = '$status$cmd_duration'
 # Inserts a blank line between shell prompts
 add_newline = false
 
-# palette = 'foo' # Probably should define it but idk
-#
-# [palette.foo]
-# # Overwrite existing color
-# blue = '21'
-# # Define new color
-# mustard = '#af8700'
 
-
-#### MODULE CONFIGS START HERE ####
 [character] # The name of the module we are configuring is 'character'
 # success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
 success_symbol = '[\[I\]](bold green)'
@@ -31,12 +21,45 @@ vimcmd_visual_symbol = '[\[V\]](bold purple)'
 format = '[$duration]($style)'
 style = 'dimmed bright-white'
 
-# Disable the package module, hiding it from the prompt completely
+[directory]
+fish_style_pwd_dir_length = 1
+
+[git_branch]
+format = '[$symbol$branch(:$remote_branch)]($style) '
+symbol = ' '
+# symbol = '󰊢 '
+style = 'bold green'
+
+[git_commit]
+only_detached = true
+
+[git_metrics]
+disabled = true
+
+[git_status]
+style = 'bold yellow'
+format = '([$conflicted$ahead_behind$stashed$deleted$renamed$modified$typechanged$staged$untracked]($style) )'
+
+conflicted = '[= ](bold red)'
+ahead = '⇡$count '
+behind = '[⇣ ](bold red)'
+diverged = '[⇕ ](bold red)'
+stashed = '\$ '
+modified = '!$count '
+untracked = '[?$count](bold blue)'
+staged = '+$count '
+renamed = ''
+deleted = ''
+
+[lua]
+# symbol = ' '
+
 [package]
 disabled = true
 
-
-
+[status]
+disabled = false
+symbol = '✘'
 
 ##  format = '$all'  is equivalent to (no blank lines, I added them :P) :
 # format = """
@@ -82,7 +105,9 @@ disabled = true
 # $custom\
 # $sudo\
 # $cmd_duration\
+
 # $line_break\
+
 # $jobs\
 # $battery\
 # $time\
@@ -92,3 +117,14 @@ disabled = true
 # $netns\
 # $shell\
 # $character"""
+
+
+
+## For defining custom colors and stuff:
+# palette = 'foo' # Probably should define it but idk
+#
+# [palette.foo]
+# # Overwrite existing color
+# blue = '21'
+# # Define new color
+# mustard = '#af8700'
