@@ -23,6 +23,7 @@ style = 'dimmed bright-white'
 
 [directory]
 fish_style_pwd_dir_length = 1
+home_symbol = '~'
 
 [git_branch]
 format = '[$symbol$branch(:$remote_branch)]($style) '
