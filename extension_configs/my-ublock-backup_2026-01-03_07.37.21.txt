@@ -1,0 +1,47 @@
+{
+  "timeStamp": 1767406041576,
+  "version": "1.68.0",
+  "userSettings": {
+    "externalLists": "https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt",
+    "importedLists": [
+      "https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt"
+    ],
+    "popupPanelSections": 15
+  },
+  "selectedFilterLists": [
+    "user-filters",
+    "ublock-filters",
+    "ublock-badware",
+    "ublock-privacy",
+    "ublock-quick-fixes",
+    "ublock-unbreak",
+    "easylist",
+    "easyprivacy",
+    "urlhaus-1",
+    "curben-phishing",
+    "plowe-0",
+    "fanboy-cookiemonster",
+    "ublock-cookies-easylist",
+    "easylist-chat",
+    "easylist-newsletters",
+    "easylist-notifications",
+    "easylist-annoyances",
+    "adguard-mobile-app-banners",
+    "adguard-other-annoyances",
+    "adguard-popup-overlays",
+    "adguard-widgets",
+    "ublock-annoyances",
+    "https://raw.githubusercontent.com/gijsdev/ublock-hide-yt-shorts/master/list.txt"
+  ],
+  "hiddenSettings": {},
+  "whitelist": [
+    "chrome-extension-scheme",
+    "imgur.com",
+    "moz-extension-scheme",
+    "www.thekapco.com"
+  ],
+  "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
+  "urlFilteringString": "",
+  "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-csp-reports: * true",
+  "userFilters": "! May 12, 2025 https://takeuforward.org\n||static.takeuforward.org/content/v3_banner.png$image\n\nwww.youtube.com##.ytp-ce-element-show\nyoutube.com#$##cinematics.ytd-watch-flexy{display:none}\nwww.youtube.com##+js(nano-stb, resolve(1), *, 0.001)\n\nunsplash.com##img[src^=\"https://plus.unsplash.com/\"]:upward(figure)\n\nyoutube.com###related\n\n! Dec 11, 2025 https://www.reddit.com\nwww.reddit.com##.xs\\:overflow-x-hidden.xs\\:overflow-y-auto.xs\\:max-h-screen-without-header.xs\\:top-\\[56px\\].xs\\:sticky.styled-scrollbars.s\\:flex.hidden.justify-start.flex-col.xs\\:min-h-screen-without-header.max-w-\\[316px\\].w-\\[316px\\].min-w-0.right-sidebar\n\n! Jan 3, 2026 https://www.reddit.com\nwww.reddit.com##.rounded-4.bg-neutral-background.isolate.mb-xs.pointer-cursor.overflow-hidden.relative > shreddit-async-loader > .nd\\:h-\\[var\\(--gallery-initial-height\\)\\].nd\\:overflow-hidden.nd\\:block > ul > li.bg-black\\/20.mt-0.justify-center.flex.relative > .z-0.post-background-image-filter.scale-\\[1\\.2\\].object-cover.opacity-30.h-full.w-full.left-0.top-0.absolute\nwww.reddit.com##.contents.nd\\:visible > .bg-black.relative.overflow-hidden.object-contain.w-full.h-full.max-h-\\[100vw\\].media-lightbox-img > .post-background-image-filter.scale-\\[1\\.2\\].object-cover.opacity-30.h-full.w-full.left-0.-translate-y-1\\/2.top-1\\/2.absolute\nwww.reddit.com##.max-h-dvh.w-full.h-full > .nd\\:h-\\[var\\(--gallery-initial-height\\)\\].nd\\:overflow-hidden.nd\\:block > ul > li.bg-black\\/20.mt-0.justify-center.flex.relative > .z-0.post-background-image-filter.scale-\\[1\\.2\\].object-cover.opacity-30.h-full.w-full.left-0.top-0.absolute"
+}
