@@ -26,6 +26,8 @@ install the plugins/flavors
 ## Make nvim the default editor
 In `/etc/environment` set `EDITOR=nvim` (fuck nano)
 
+## generate ssh keys and setup ssh-agent
+
 ## Setup Chaotic AUR
 
 ## Setup gnome-keyring
