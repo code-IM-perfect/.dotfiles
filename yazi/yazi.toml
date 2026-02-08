@@ -7,6 +7,17 @@ show_symlink = true
 scrolloff = 2
 
 [opener]
+play = [
+	{ run = "mpv %s", orphan = true, for = "unix" },
+	{ run = '"C:\Program Files\mpv.exe" %s', orphan = true, for = "windows" }
+]
+edit = [
+	{ run = "$EDITOR %s", block = true, for = "unix" },
+	{ run = "%EDITOR% %s", block = true, for = "windows" },
+]
+open = [
+	{ run = "xdg-open %s", orphan = true, desc = "Open" },
+]
 
 [open]
 
