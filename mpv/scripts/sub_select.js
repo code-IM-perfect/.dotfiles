@@ -2,7 +2,7 @@
 // Auto-select subtitle track if it matches a regex pattern
 
 var regex = /.*full.*|.*dialog.*|@ani_animesh.*/i;
-var blacklist = /signs\/songs.*|signs$/i;
+var blacklist = /signs\/songs.*|signs$|Sing & Song|^Forced$/i;   // Should probably not include 'Forced'
 
 function select_subtitle() {
     var tracks = mp.get_property_native("track-list");
