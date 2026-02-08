@@ -18,6 +18,11 @@ chsh -s /usr/bin/fish
 ## Configure zoxide
 [zoxide](): nvm it's already in my fish config
 
+## configure and restore yazi
+[yazi](https://yazi-rs.github.io/docs/quick-start)
+install the plugins/flavors
+`ya pkg install`
+
 ## Make nvim the default editor
 In `/etc/environment` set `EDITOR=nvim` (fuck nano)
 
