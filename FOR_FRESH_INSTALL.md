@@ -15,8 +15,7 @@ chsh -s /usr/bin/fish
 > May need to add fish as shell (pacman already does tho)
 > Add `/usr/bin/fish` to `/etc/shells`
 
-## Configure yazi and zoxide
-[yazi](https://yazi-rs.github.io/docs/quick-start)
+## Configure zoxide
 [zoxide](): nvm it's already in my fish config
 
 ## Make nvim the default editor
