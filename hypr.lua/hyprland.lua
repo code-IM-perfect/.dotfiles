@@ -168,3 +168,4 @@ require("core.animations")
 ---- KEYBINDINGS ----
 ---------------------
 
+require("bindings.window")
