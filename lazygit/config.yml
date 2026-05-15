@@ -1,1 +1,2 @@
-# useHunkModeInStagingView: false
+gui:
+  useHunkModeInStagingView: false
