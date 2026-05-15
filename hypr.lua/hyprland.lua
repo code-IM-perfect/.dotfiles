@@ -143,3 +143,6 @@ hl.config({
 		},
 	},
 })
+
+require("core.animations")
+
