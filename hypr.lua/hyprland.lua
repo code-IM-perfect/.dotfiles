@@ -63,4 +63,16 @@ local fileManager = "dolphin"
 -------------------
 
 -- See https://wiki.hypr.land/Configuring/Basics/Autostart/
-require(autostart)
+require("autostart")
+
+-------------------------------
+---- ENVIRONMENT VARIABLES ----
+-------------------------------
+
+-- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Environment-variables/
+
+hl.env("XCURSOR_SIZE", "32")
+hl.env("HYPRCURSOR_SIZE", "32")
+
+require("core.env")
+
