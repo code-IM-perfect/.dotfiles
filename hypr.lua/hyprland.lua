@@ -169,3 +169,4 @@ require("core.animations")
 ---------------------
 
 require("bindings.window")
+require("bindings.utilities")
