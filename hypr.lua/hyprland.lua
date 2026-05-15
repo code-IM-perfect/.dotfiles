@@ -164,3 +164,7 @@ require("core.animations")
 --     rounding    = 0,
 -- })
 
+---------------------
+---- KEYBINDINGS ----
+---------------------
+
