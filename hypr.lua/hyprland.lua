@@ -58,3 +58,9 @@ local terminal = "kitty"
 local fileManager = "dolphin"
 -- local menu = "hyprlauncher"
 
+-------------------
+---- AUTOSTART ----
+-------------------
+
+-- See https://wiki.hypr.land/Configuring/Basics/Autostart/
+require(autostart)
