@@ -170,3 +170,4 @@ require("core.animations")
 
 require("bindings.window")
 require("bindings.utilities")
+require("bindings.media_buttons")
