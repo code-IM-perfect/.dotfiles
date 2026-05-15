@@ -173,3 +173,5 @@ require("bindings.utilities")
 require("bindings.media_buttons")
 require("bindings.applications")
 require("bindings.power")
+require("bindings.others")
+
