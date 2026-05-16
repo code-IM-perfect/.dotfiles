@@ -1,0 +1,13 @@
+/*
+* Css Colors
+* Generated with Matugen
+*/
+:root {
+    <* for name, value in colors *>
+    	--{{name}}: {{value.default.hex}};
+    <* endfor *>
+
+    <* for name, value in base16 *>
+    	--{{name}}: {{value.default.hex}};
+    <* endfor *>
+}
