@@ -13,5 +13,7 @@
   "SKIP_HOST_UPDATE": true,
   "offloadAdmControls": true,
   "enableHardwareAcceleration": true,
-  "OPEN_ON_STARTUP": false
+  "OPEN_ON_STARTUP": false,
+  "enableLibOpenH264Electron": false,
+  "openH264Enabled": true
 }
