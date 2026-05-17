@@ -1,5 +1,4 @@
 // This is the Catppuccin Mocha theme's palette
-//
 pragma Singleton
 
 import QtQuick
