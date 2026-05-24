@@ -1,6 +1,6 @@
-local mainMod = require("mainMod")
+local prefs = require("prefs")
 
 hl.bind(
-	mainMod .. " + ALT + 0",
-	hl.dsp.exec_cmd(terminal .. " -e python '/home/harshit/Harshit_Work/Funny_Stuff/Save_Posts.py'")
+	prefs.mainMod .. " + ALT + 0",
+	hl.dsp.exec_cmd(prefs.terminal .. " -e python '/home/harshit/Harshit_Work/Funny_Stuff/Save_Posts.py'")
 )
