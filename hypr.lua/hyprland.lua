@@ -205,3 +205,11 @@ require("bindings.applications")
 require("bindings.power")
 require("bindings.others")
 
+--------------------------------
+---- WINDOWS AND WORKSPACES ----
+--------------------------------
+
+-- See https://wiki.hypr.land/Configuring/Basics/Window-Rules/
+-- and https://wiki.hypr.land/Configuring/Basics/Workspace-Rules/
+
+require("core.rules")
