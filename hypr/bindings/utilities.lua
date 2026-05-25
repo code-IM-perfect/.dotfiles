@@ -1,4 +1,4 @@
-local prefs = require("prefs")
+local prefs = require("bindings.prefs")
 local menu = "~/.config/rofi/scripts/launcher_t1"
 
 -- Core binds ig

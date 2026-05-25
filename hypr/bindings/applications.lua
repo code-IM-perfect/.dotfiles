@@ -1,4 +1,4 @@
-local prefs = require("prefs")
+local prefs = require("bindings.prefs")
 
 -- Browsers
 hl.bind(prefs.mainMod .. " + F", hl.dsp.exec_cmd("zen-browser --blank-window"))

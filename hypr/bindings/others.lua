@@ -1,4 +1,4 @@
-local prefs = require("prefs")
+local prefs = require("bindings.prefs")
 
 hl.bind(
 	prefs.mainMod .. " + ALT + 0",

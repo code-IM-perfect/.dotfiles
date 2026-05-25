@@ -1,3 +1,5 @@
+local prefs = require("bindings.prefs")
+
 -- Brightness
 hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 1%+"), { repeating = true, locked = true })
 hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 1%-"), { repeating = true, locked = true })
@@ -52,4 +54,4 @@ hl.bind(
 	{ locked = true }
 )
 
-hl.bind(mainMod .. " + XF86AudioPlay", hl.dsp.exec_cmd("playerctl -a pause"), { locked = true })
+hl.bind(prefs.mainMod .. " + XF86AudioPlay", hl.dsp.exec_cmd("playerctl -a pause"), { locked = true })
