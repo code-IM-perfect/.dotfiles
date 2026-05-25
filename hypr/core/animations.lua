@@ -30,8 +30,10 @@ hl.curve("quick", {
 hl.curve("easy", {
 	type = "spring",
 	mass = 1,
-	stiffness = 71.2633,
-	dampening = 15.8273644,
+	-- stiffness = 71.2633,
+	-- dampening = 15.8273644,
+	stiffness = 45,
+	dampening = 11,
 })
 
 hl.animation({ leaf = "global", enabled = true, speed = 10, bezier = "default" })
