@@ -92,10 +92,10 @@ require("core.env")
 -- Refer to https://wiki.hypr.land/Configuring/Basics/Variables/
 hl.config({
 	general = {
-		gaps_in = 5,
-		gaps_out = 20,
+		gaps_in = 4,
+		gaps_out = 15,
 
-		border_size = 2,
+		border_size = 3,
 
 		col = {
 			active_border = { colors = { "rgba(33ccffff)", "rgba(00ff99ff)" }, angle = 45 },
