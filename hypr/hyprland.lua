@@ -159,6 +159,7 @@ require("core.animations")
 hl.config({
 	dwindle = {
 		preserve_split = true, -- You probably want this
+		split_width_multiplier = 1.33, -- may fuck some stuff ig, but works well enough for now idk
 	},
 })
 
