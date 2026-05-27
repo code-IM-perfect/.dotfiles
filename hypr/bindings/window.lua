@@ -48,10 +48,10 @@ for i = 1, 10 do
 	hl.bind(prefs.mainMod .. " + " .. key, function()
 		local workspace = (hl.get_active_monitor().id * 10 + i)
 		hl.dispatch(hl.dsp.focus({ workspace = workspace }))
-		hl.notification.create({
-			text = "Switched to workspace: " .. workspace,
-			duration = 10000,
-		})
+		-- hl.notification.create({
+		-- 	text = "Switched to workspace: " .. workspace,
+		-- 	duration = 10000,
+		-- })
 	end)
 	hl.bind(prefs.mainMod .. " + SHIFT + " .. key, function()
 		local workspace = (hl.get_active_monitor().id * 10 + i)
