@@ -55,7 +55,7 @@ for i = 1, 10 do
 	end)
 	hl.bind(prefs.mainMod .. " + SHIFT + " .. key, function()
 		local workspace = (hl.get_active_monitor().id * 10 + i)
-		hl.dsp.window.move({ workspace = workspace, follow = false })
+		hl.dispatch(hl.dsp.window.move({ workspace = workspace, follow = false }))
 	end)
 end
 
