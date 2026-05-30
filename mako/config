@@ -1,2 +1,8 @@
 max-history=20
 sort=-time
+
+[app-name="Nicotine+"]
+default-timeout=4000
+
+[desktop-entry="org.kde.kded6"]
+default-timeout=4000
