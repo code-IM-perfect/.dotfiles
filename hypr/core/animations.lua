@@ -38,14 +38,14 @@ hl.curve("hobbyist", {
 	type = "spring",
 	mass = 1,
 	stiffness = 40,
-	dampening = 6,
+	dampening = 8,
 })
 
 hl.curve("cat", {
 	type = "spring",
 	mass = 1,
-	stiffness = 30,
-	dampening = 6,
+	stiffness = 50,
+	dampening = 6.5,
 })
 
 hl.curve("stiff", {
