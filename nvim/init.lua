@@ -111,7 +111,11 @@ vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower win
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
 -- NOTE: My custom commands
-vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, { desc = 'Explore the directory around current file (project view)' })
+vim.keymap.set('n', '<leader>pv', function()
+  local current_file = vim.fn.expand '%:t'
+  vim.cmd.Ex()
+  vim.fn.search('^' .. current_file .. '$')
+end, { desc = 'Open Netrw with directory around current file' })
 
 -- move selected text regions
 vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv")
