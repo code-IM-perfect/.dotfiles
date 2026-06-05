@@ -73,3 +73,34 @@ hl.animation({ leaf = "workspaces", enabled = true, speed = 1.94, spring = "stif
 hl.animation({ leaf = "workspacesIn", enabled = true, speed = 1.21, spring = "stiff", style = "slide" })
 hl.animation({ leaf = "workspacesOut", enabled = true, speed = 1.94, spring = "stiff", style = "slide" })
 hl.animation({ leaf = "zoomFactor", enabled = true, speed = 7, bezier = "quick" })
+
+hl.window_rule({
+	name = "floating-window-animation",
+	match = {
+		float = true,
+	},
+
+	enabled = true,
+	animation = hl.animation({
+		leaf = "windowsIn",
+		enabled = true,
+		speed = 4.79,
+		spring = "stiff",
+		style = "popin 87%",
+	}),
+})
+hl.window_rule({
+	name = "floating-window-animation",
+	match = {
+		float = true,
+	},
+
+	enabled = true,
+	animation = hl.animation({
+		leaf = "windowsOut",
+		enabled = true,
+		speed = 2,
+		bezier = "almostLinear",
+		style = "popin 87%",
+	}),
+})
