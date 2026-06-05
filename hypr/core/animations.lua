@@ -104,3 +104,11 @@ hl.window_rule({
 		style = "popin 87%",
 	}),
 })
+
+hl.layer_rule({
+	name = "disable-slurp-animation",
+	match = {
+		namespace = "selection",
+	},
+	animation = hl.animation({ leaf = "layersOut", enabled = false }),
+})
