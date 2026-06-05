@@ -38,7 +38,7 @@ hl.curve("hobbyist", {
 	type = "spring",
 	mass = 1,
 	stiffness = 40,
-	dampening = 8,
+	dampening = 9,
 })
 
 hl.curve("cat", {
@@ -51,8 +51,8 @@ hl.curve("cat", {
 hl.curve("stiff", {
 	type = "spring",
 	mass = 1,
-	stiffness = 45,
-	dampening = 10,
+	stiffness = 70,
+	dampening = 13,
 })
 
 hl.animation({ leaf = "global", enabled = true, speed = 10, bezier = "default" })
