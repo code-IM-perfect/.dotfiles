@@ -86,6 +86,10 @@ hl.bind(prefs.mainMod .. " + SHIFT + S", hl.dsp.window.move({ workspace = "speci
 hl.bind(prefs.mainMod .. " + mouse_down", hl.dsp.focus({ workspace = "e+1" }))
 hl.bind(prefs.mainMod .. " + mouse_up", hl.dsp.focus({ workspace = "e-1" }))
 
+-- Similar to above but with keyboard
+hl.bind(prefs.mainMod .. " + CTRL + right", hl.dsp.focus({ workspace = "m+1" }))
+hl.bind(prefs.mainMod .. " + CTRL + left", hl.dsp.focus({ workspace = "m-1" }))
+
 -- Move/resize windows with prefs.mainMod + LMB/RMB and dragging
 hl.bind(prefs.mainMod .. " + mouse:272", hl.dsp.window.drag(), { mouse = true })
 hl.bind(prefs.mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
