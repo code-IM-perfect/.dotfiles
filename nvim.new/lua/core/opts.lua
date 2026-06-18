@@ -13,3 +13,6 @@ vim.opt.relativenumber = true
 -- Indenting and stuff
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
+
+vim.opt.mouse = 'nv'
+
