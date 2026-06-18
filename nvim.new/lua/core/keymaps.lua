@@ -27,6 +27,9 @@ vim.keymap.set('n', '<leader>y', '"+y')
 vim.keymap.set('v', '<leader>y', '"+y')
 vim.keymap.set('n', '<leader>Y', '"+Y')
 
+-- Some more convenience binds
+vim.keymap.set("n", "<leader>w", "<cmd>w<CR>", { desc = "Save file" }) -- idk if I'll use it tho lol
+
 -- <C-Backspace> to delete word (in insert mode)
 vim.keymap.set('i', '<C-Backspace>', '<C-w>')
 
