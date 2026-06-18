@@ -37,8 +37,8 @@ hl.curve("easy", {
 hl.curve("hobbyist", {
 	type = "spring",
 	mass = 1,
-	stiffness = 40,
-	dampening = 9,
+	stiffness = 45,
+	dampening = 10,
 })
 
 hl.curve("cat", {
