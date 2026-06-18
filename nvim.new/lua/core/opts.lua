@@ -16,3 +16,6 @@ vim.opt.expandtab = true
 
 vim.opt.mouse = 'nv'
 
+-- Save undo history
+vim.opt.undofile = true
+
