@@ -14,6 +14,14 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv")
 vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv")
 
+-- Open netrw on dir containing current buffer and move focus to it
+vim.keymap.set('n', '<leader>pv', function()
+    local current_file = vim.fn.expand '%:t'
+    vim.cmd.Ex()
+    vim.fn.search('^' .. current_file .. '$')
+  end, { desc = 'Open Netrw with directory around current file' }
+)
+
 -- Yank to system clipboard
 vim.keymap.set('n', '<leader>y', '"+y')
 vim.keymap.set('v', '<leader>y', '"+y')
