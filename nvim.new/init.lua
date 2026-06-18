@@ -13,3 +13,9 @@ require("core.keymaps")
 -- Autocommands --
 ------------------
 require("core.autocommands")
+
+------------------
+--   Plugins    --
+------------------
+-- require("config.lazy")
+require("extra.vim_pack")
