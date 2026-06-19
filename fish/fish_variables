@@ -9,8 +9,8 @@ SETUVAR FZF_PREVIEW_DIR_CMD:ls
 SETUVAR FZF_PREVIEW_FILE_CMD:head\x20\x2dn\x2010
 SETUVAR FZF_TMUX_HEIGHT:40\x25
 SETUVAR --export GEM_HOME:/home/harshit/gems
-SETUVAR --export __ABBR_TIPS_KEYS:a__z\x1ea__zi
-SETUVAR --export __ABBR_TIPS_VALUES:__zoxide_z\x1e__zoxide_zi
+SETUVAR --export __ABBR_TIPS_KEYS:a__z\x1ea__zi\x1ea__\x1ea__nn\x1ea__nn\x1ea__nv
+SETUVAR --export __ABBR_TIPS_VALUES:__zoxide_z\x1e__zoxide_zi\x1e\x1envim\x20\x2e\x1envim\x20\x2e\x1eNVIM_APPNAME\x3dnvim\x2enew\x20nvim
 SETUVAR __fish_initialized:4300
 SETUVAR _fisher_catppuccin_2F_fish_files:\x7e/\x2econfig/fish/themes/Catppuccin\x20Frappe\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Latte\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Macchiato\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Mocha\x2etheme
 SETUVAR _fisher_gazorby_2F_fish_2D_abbreviation_2D_tips_files:\x7e/\x2econfig/fish/functions/__abbr_tips_bind_newline\x2efish\x1e\x7e/\x2econfig/fish/functions/__abbr_tips_bind_space\x2efish\x1e\x7e/\x2econfig/fish/functions/__abbr_tips_clean\x2efish\x1e\x7e/\x2econfig/fish/functions/__abbr_tips_init\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/abbr_tips\x2efish
