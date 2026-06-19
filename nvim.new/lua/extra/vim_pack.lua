@@ -3,3 +3,4 @@ _G.gh = function(repo)
 end
 
 require("extra.plugins.theme.tokyonight")
+require("extra.plugins.core.treesitter")
