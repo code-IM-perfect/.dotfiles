@@ -15,4 +15,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("playerctld daemon")
 	hl.exec_cmd("clipse -listen")
 	hl.exec_cmd("sleep 2 && keepassxc")
+	-- WARN: temporary fix, remove this after fdo/xdg idiots or arch maintainers fix this
+	-- https://github.com/hyprwm/Hyprland/discussions/15072
+	hl.exec_cmd("/usr/lib/xdg-desktop-portal -r")
 end)
