@@ -4,6 +4,9 @@ end
 
 require 'extra.plugins.theme.tokyonight'
 require 'extra.plugins.core.treesitter'
+
+vim.pack.add { _G.gh 'nvim-mini/mini.nvim' }
+
 require 'extra.plugins.editor.mini_pairs'
 
 do
