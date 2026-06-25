@@ -1,5 +1,9 @@
 {
   "plugins": {
+    "guess-indent.nvim": {
+      "rev": "84a4987ff36798c2fc1169cbaff67960aed9776f",
+      "src": "https://github.com/NMAC427/guess-indent.nvim"
+    },
     "mini.nvim": {
       "rev": "64e77a77173a23daa218ebfa2f7d59456b30326b",
       "src": "https://github.com/nvim-mini/mini.nvim"
