@@ -18,4 +18,4 @@ require("core.autocommands")
 --   Plugins    --
 ------------------
 -- require("config.lazy")
-require("extra.vim_pack")
+require("core.vim_pack")
