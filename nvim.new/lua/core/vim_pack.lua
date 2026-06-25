@@ -7,6 +7,7 @@ require 'plugins.core.treesitter'
 
 vim.pack.add { _G.gh 'nvim-mini/mini.nvim' }
 
+require 'plugins.editor.mini_ai'
 require 'plugins.editor.mini_pairs'
 
 do
