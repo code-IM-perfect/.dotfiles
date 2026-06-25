@@ -2,12 +2,12 @@ _G.gh = function(repo)
   return 'https://github.com/' .. repo
 end
 
-require 'extra.plugins.theme.tokyonight'
-require 'extra.plugins.core.treesitter'
+require 'plugins.theme.tokyonight'
+require 'plugins.core.treesitter'
 
 vim.pack.add { _G.gh 'nvim-mini/mini.nvim' }
 
-require 'extra.plugins.editor.mini_pairs'
+require 'plugins.editor.mini_pairs'
 
 do
   vim.api.nvim_create_autocmd('PackChanged', {
