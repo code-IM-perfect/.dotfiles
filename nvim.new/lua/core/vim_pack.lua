@@ -9,6 +9,8 @@ vim.pack.add { _G.gh 'nvim-mini/mini.nvim' }
 
 require 'plugins.interface.mini_statusline'
 
+require 'plugins.core.lspconfig'
+
 require 'plugins.editor.mini_ai'
 require 'plugins.editor.mini_pairs'
 require 'plugins.editor.guess_indent'
