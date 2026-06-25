@@ -6,6 +6,8 @@ require 'plugins.core.lsp.lspattach'
 require 'plugins.core.lsp.fidget'
 -- Community maintained recommended setup for lua_ls (so I don't have to)
 require 'plugins.core.lsp.lazydev'
+-- Formatting
+require 'plugins.core.conform'
 
 vim.lsp.config('lua_ls', {
   on_init = function(client)
