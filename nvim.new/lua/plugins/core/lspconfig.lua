@@ -4,3 +4,18 @@ vim.pack.add { { src = _G.gh 'neovim/nvim-lspconfig' } }
 require 'plugins.core.lsp.lspattach'
 -- Progress info for LSP stuff
 require 'plugins.core.lsp.fidget'
+-- Community maintained recommended setup for lua_ls (so I don't have to)
+require 'plugins.core.lsp.lazydev'
+
+vim.lsp.config('lua_ls', {
+  on_init = function(client)
+    client.server_capabilities.documentFormattingProvider = false -- Disable formatting (formatting is done by stylua)
+  end,
+  settings = {
+    Lua = {
+      format = { enable = false }, -- Disable formatting (formatting is done by stylua)
+    },
+  },
+})
+
+vim.lsp.enable 'lua_ls'
