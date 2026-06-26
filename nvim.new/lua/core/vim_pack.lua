@@ -1,13 +1,12 @@
 _G.gh = function(repo) return 'https://github.com/' .. repo end
 
 require 'plugins.theme'
-require 'plugins.core.treesitter'
 
 vim.pack.add { _G.gh 'nvim-mini/mini.nvim' }
 
-require 'plugins.interface'
+require 'plugins.core'
 
-require 'plugins.core.lspconfig'
+require 'plugins.interface'
 
 require 'plugins.editor'
 
