@@ -2,7 +2,7 @@ _G.gh = function(repo)
   return 'https://github.com/' .. repo
 end
 
-require 'plugins.theme.tokyonight'
+require 'plugins.theme'
 require 'plugins.core.treesitter'
 
 vim.pack.add { _G.gh 'nvim-mini/mini.nvim' }
