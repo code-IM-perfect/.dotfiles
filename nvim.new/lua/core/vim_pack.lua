@@ -7,7 +7,7 @@ require 'plugins.core.treesitter'
 
 vim.pack.add { _G.gh 'nvim-mini/mini.nvim' }
 
-require 'plugins.interface.mini_statusline'
+require 'plugins.interface'
 
 require 'plugins.core.lspconfig'
 
