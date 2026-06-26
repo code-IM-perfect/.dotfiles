@@ -1,6 +1,4 @@
-_G.gh = function(repo)
-  return 'https://github.com/' .. repo
-end
+_G.gh = function(repo) return 'https://github.com/' .. repo end
 
 require 'plugins.theme'
 require 'plugins.core.treesitter'
@@ -18,14 +16,10 @@ do
     callback = function(ev)
       local name = ev.data.spec.name
       local kind = ev.data.kind
-      if kind ~= 'install' and kind ~= 'update' then
-        return
-      end
+      if kind ~= 'install' and kind ~= 'update' then return end
 
       if name == 'nvim-treesitter' then
-        if not ev.data.active then
-          vim.cmd.packadd 'nvim-treesitter'
-        end
+        if not ev.data.active then vim.cmd.packadd 'nvim-treesitter' end
         vim.cmd 'TSUpdate'
         return
       end
