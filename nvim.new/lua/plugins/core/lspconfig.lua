@@ -1,4 +1,4 @@
-vim.pack.add { { src = _G.gh 'neovim/nvim-lspconfig' } }
+vim.pack.add { { src = gh 'neovim/nvim-lspconfig' } }
 
 -- Progress info for LSP stuff
 require 'plugins.core.lsp.fidget'

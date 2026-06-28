@@ -1,3 +1,3 @@
-vim.pack.add({_G.gh("folke/tokyonight.nvim")})
+vim.pack.add { gh 'folke/tokyonight.nvim' }
 
 vim.cmd.colorscheme('tokyonight-night')

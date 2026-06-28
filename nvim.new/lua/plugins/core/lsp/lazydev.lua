@@ -1,4 +1,4 @@
-vim.pack.add({ _G.gh 'folke/lazydev.nvim' })
+vim.pack.add { gh 'folke/lazydev.nvim' }
 
 require("lazydev").setup({
   library = {
