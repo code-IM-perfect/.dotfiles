@@ -20,3 +20,5 @@ vim.lsp.config('lua_ls', {
 
 vim.lsp.enable 'stylua' -- no need to add it to conform btw
 vim.lsp.enable 'lua_ls'
+
+vim.lsp.enable 'rust_analyzer'
