@@ -23,6 +23,9 @@ vim.opt.undofile = true
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
+-- Keep signcolumn on by default
+vim.o.signcolumn = 'yes'
+
 -- Decrease update time
 vim.o.updatetime = 250
 
