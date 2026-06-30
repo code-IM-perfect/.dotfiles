@@ -32,3 +32,4 @@ vim.keymap.set('n', '<leader>w', '<cmd>w<CR>', { desc = 'Save file' }) -- idk if
 -- <C-Backspace> to delete word (in insert mode)
 vim.keymap.set('i', '<C-Backspace>', '<C-w>')
 
+vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
