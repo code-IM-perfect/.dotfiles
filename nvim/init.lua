@@ -1,3 +1,5 @@
+vim.loader.enable()
+
 print 'nyaa'
 ------------------
 --  Interface   --
